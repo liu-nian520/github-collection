@@ -1,0 +1,353 @@
+	body {
+		background-color: #e8eff6;
+	}
+	
+	.header {
+		width: 950px;
+		margin: 0 auto;
+		/*height: 100px;*/
+	}
+	
+	.header i {
+		display: inline-block;
+		width: 68px;
+		height: 67px;
+		margin-top: 3%;
+		background: url(../img/jlt1.png) 10px 0px;
+	}
+	
+	.main {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
+	
+	.main .left img {
+		opacity: 1;
+		-webkit-transition: all 0.8s;
+		-o-transition: all 0.8s;
+		transition: all 0.8s;
+	}
+	
+	.main .left img:hover {
+		opacity: 0.8;
+	}
+	
+	.main .right {
+		background-color: #fff;
+	}
+	
+	.main .right form {
+		/*text-align: center;*/
+		margin-left: 8%;
+		margin-top: 4%;
+		font-size: 13px;
+	}
+	
+	.main .right form input:nth-child(2) {
+		margin-left: 5%;
+	}
+	
+	.main .right form input:nth-child(3) {
+		border: 1px solid #ccc;
+		padding: 8px 130px 8px 5px;
+		border-radius: 3px;
+		margin-top: 5%;
+	}
+	
+	.main .right form input:nth-child(4) {
+		border: 1px solid #ccc;
+		padding: 8px 130px 8px 5px;
+		border-radius: 3px;
+		margin-top: 5%;
+	}
+	
+	.main .right form span {
+		display: inline-block;
+		margin-top: 5%;
+	}
+	
+	.main .right form a {
+		display: inline-block;
+		margin-left: 30%;
+		color: cornflowerblue
+	}
+	
+	.main .right form a:hover {
+		color: #ff6600;
+	}
+	
+	.main .right form input:nth-child(10) {
+		text-align: center;
+		font-size: 15px;
+		padding: 10px 117px;
+		border-radius: 3px;
+		margin-top: 5%;
+		background-color: #ff6600;
+	}
+	
+	.main .right form p {
+		font-size: 13px;
+		height: 27px;
+		line-height: 27px;
+		margin-top: 4%;
+	}
+	
+	.main .right form .login {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
+	
+	.main .right form .login .first {
+		display: inline-block;
+		width: 30px;
+		height: 27px;
+		background: url(../img/jlt3.png) -439px -342px;
+		cursor: pointer;
+	}
+	
+	.main .right form .login .first:hover {
+		display: inline-block;
+		width: 30px;
+		height: 27px;
+		background: url(../img/jlt3.png) -439px -371px;
+		cursor: pointer;
+	}
+	
+	.main .right form .login .second {
+		display: inline-block;
+		width: 30px;
+		height: 27px;
+		background: url(../img/jlt3.png) -479px -342px;
+		cursor: pointer;
+	}
+	
+	.main .right form .login .second:hover {
+		display: inline-block;
+		width: 30px;
+		height: 27px;
+		background: url(../img/jlt3.png) -479px -371px;
+		cursor: pointer;
+	}
+	
+	.main .right form .login .third {
+		display: inline-block;
+		width: 30px;
+		height: 27px;
+		background: url(../img/jlt3.png) -519px -342px;
+		cursor: pointer;
+	}
+	
+	.main .right form .login .third:hover {
+		display: inline-block;
+		width: 30px;
+		height: 27px;
+		background: url(../img/jlt3.png) -519px -371px;
+		cursor: pointer;
+	}
+	
+	.main .right form .login .four {
+		display: inline-block;
+		width: 30px;
+		height: 27px;
+		background: url(../img/jlt3.png) -559px -342px;
+		cursor: pointer;
+	}
+	
+	.main .right form .login .four:hover {
+		display: inline-block;
+		width: 30px;
+		height: 27px;
+		background: url(../img/jlt3.png) -559px -371px;
+		cursor: pointer;
+	}
+	
+	.bot {
+		position: relative;
+		margin-top: 3%;
+	}
+	
+	.bot a {
+		display: inline-block;
+		position: absolute;
+		right: 5%;
+		font-size: 13px;
+		color: cadetblue;
+	}
+	/*.bot a:hover {
+		color: #ff6600;
+	}*/
+	
+	.bot i {
+		position: absolute;
+		right: 2%;
+		top: -28px;
+		display: inline-block;
+		width: 23px;
+		height: 15px;
+		background: url(../img/jlt1.png) 0px -430px;
+	}
+	
+	.bot:hover i {
+		position: absolute;
+		right: 2%;
+		top: -28px;
+		display: inline-block;
+		width: 23px;
+		height: 15px;
+		background: url(../img/jlt1.png) 0px -445px;
+	}
+	
+	.bot:hover a {
+		color: #ff6600;
+	}
+	
+	.footer1 {
+		width: 600px;
+		margin: 0 auto;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		margin-top: 12%;
+		position: relative;
+	}
+	
+	.footer1 .foo1 {
+		margin-left: 7%;
+	}
+	
+	.footer1 .foo1 a {
+		font-size: 13px;
+		color: #666;
+	}
+	
+	.footer1 .foo1 i {
+		display: inline-block;
+		width: 23px;
+		height: 18px;
+		background: url(../img/jlt1.png) 0px -278px;
+	}
+	
+	.footer1 .foo1:hover i {
+		display: inline-block;
+		width: 23px;
+		height: 18px;
+		background: url(../img/jlt1.png) 0px -305px;
+	}
+	
+	.footer1 .foo1:hover a {
+		color: #ff6600;
+	}
+	
+	.footer1 .foo2 {
+		margin-left: 7%;
+	}
+	
+	.footer1 .foo2 a {
+		font-size: 13px;
+		color: #666;
+	}
+	
+	.footer1 .foo2 i {
+		display: inline-block;
+		width: 23px;
+		height: 18px;
+		background: url(../img/jlt1.png) -25px -278px;
+	}
+	
+	.footer1 .foo2:hover i {
+		display: inline-block;
+		width: 23px;
+		height: 18px;
+		background: url(../img/jlt1.png) -25px -305px;
+	}
+	
+	.footer1 .foo2:hover a {
+		color: #ff6600;
+	}
+	
+	.footer1 .foo3 {
+		margin-left: 7%;
+	}
+	
+	.footer1 .foo3 a {
+		font-size: 13px;
+		color: #666;
+	}
+	
+	.footer1 .foo3 i {
+		display: inline-block;
+		width: 23px;
+		height: 18px;
+		background: url(../img/jlt1.png) -45px -278px;
+	}
+	
+	.footer1 .foo3:hover i {
+		display: inline-block;
+		width: 23px;
+		height: 18px;
+		background: url(../img/jlt1.png) -45px -305px;
+	}
+	
+	.footer1 .foo3:hover a {
+		color: #ff6600;
+	}
+	
+	.footer1 .foo4 {
+		margin-left: 7%;
+	}
+	
+	.footer1 .foo4 a {
+		font-size: 13px;
+		color: #666;
+	}
+	
+	.footer1 .foo4 i {
+		display: inline-block;
+		width: 23px;
+		height: 18px;
+		background: url(../img/jlt1.png) -75px -278px;
+	}
+	
+	.footer1 .foo4:hover i {
+		display: inline-block;
+		width: 23px;
+		height: 18px;
+		background: url(../img/jlt1.png) -75px -305px;
+	}
+	
+	.footer1 .foo4:hover a {
+		color: #ff6600;
+	}
+	
+	.footer {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		margin-top: 3%;
+		color: #666;
+	}
+	
+	.footer ul {
+		margin-left: 22%;
+	}
+	
+	.footer ul li {
+		float: left;
+		font-size: 13px;
+	}
+	
+	.footer ul li a {
+		padding: 0 5px;
+		color: #666;
+	}
+	
+	.footer ul li a:hover {
+		color: #ee6600;
+	}
+	
+	.footer p {
+		font-size: 13px;
+		margin-left: 2%;
+	}

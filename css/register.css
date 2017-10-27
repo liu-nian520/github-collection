@@ -1,0 +1,451 @@
+	body {
+		background-color: #e8eff6;
+	}
+	
+	.header {
+		width: 950px;
+		margin: 0 auto;
+		/*height: 100px;*/
+	}
+	
+	.header i {
+		display: inline-block;
+		width: 68px;
+		height: 67px;
+		margin-top: 3%;
+		background: url(../img/jlt1.png) 10px 0px;
+	}
+	
+	.main {
+		background-color: #fff;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	
+	.main .top {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	
+	.main .top .top1 {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		margin-left: 2%;
+	}
+	
+	.main .top .top1 h1 {
+		color: #888;
+	}
+	
+	.main .top .top1 p {
+		margin-top: 2%;
+		font-size: 13px;
+		margin-left: 4%;
+	}
+	
+	.main .top .top1 a {
+		margin-top: 2%;
+		font-size: 13px;
+		color: cadetblue
+	}
+	
+	.main .top .top1 a:hover {
+		color: #ffbb62;
+	}
+	
+	.main .top .top2 {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		margin-top: 4%;
+		margin-left: 20%;
+	}
+	
+	.main .top .top2 form:nth-child(1) span {
+		font-size: 13px;
+	}
+	
+	.main .top .top2 form:nth-child(2) {
+		margin-top: 2%;
+		font-size: 13px;
+		color: #888;
+		display: none;
+	}
+	
+	.main .top .top2 #check:hover form:nth-child(2) {
+		display: block;
+	}
+	
+	.main .top .top2 form:nth-child(2) span:nth-child(1) {
+		color: #f00;
+	}
+	
+	.main .top .top2 form:nth-child(2) #card {
+		padding: 5px 3px;
+		font-size: 15px;
+	}
+	
+	.main .top .top2 form:nth-child(2) .two {
+		color: #f00;
+		margin-top: 1%;
+	}
+	
+	.main .top .top2 form:nth-child(2) .two_ {
+		display: inline-block;
+		margin-top: 3%;
+	}
+	
+	.main .top .top2 form:nth-child(2) #type {
+		padding: 5px 3px;
+		font-size: 15px;
+		margin-top: 0%;
+	}
+	
+	.main .top .top2 form:nth-child(2) .num {
+		display: inline-block;
+		margin-left: 3%;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+	
+	.main .top .top2 form:nth-child(2) .cardNum {
+		border: 1px solid #ccc;
+		padding: 7px 110px 7px 5px;
+		margin-left: 1%;
+	}
+	
+	hr {
+		display: inline-block;
+		border: 1px dashed #ccc;
+		width: 600px;
+	}
+	
+	.main .bottom {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		margin-top: 2%;
+		margin-left: 15%;
+	}
+	
+	.main .bottom form span:nth-child(1) {
+		display: inline-block;
+		/*margin-top: 2%;*/
+		color: red;
+		font-size: 13px;
+
+	}
+	
+	.main .bottom form span:nth-child(2) {
+		display: inline-block;
+		/*margin-top: 2%;*/
+		font-size: 13px;
+		color: #888;
+	}
+	
+	.main .bottom form select {
+
+
+		/*margin-top: 2%;*/
+		padding: 5px 3px;
+		font-size: 14px;
+		color: #888;
+	}
+	
+	.main .bottom form input {
+		/*margin-top: 2%;*/
+		padding: 6px 3px;
+		font-size: 14px;
+		color: #888;
+		border: 1px solid #ccc;
+	}
+	
+	.wrong {
+		font-size: 13px;
+		color: red;
+	}
+	
+	.right {
+		font-size: 13px;
+		color: #888;
+	}
+	
+	.main .bottom form .two {
+		display: inline-block;
+		margin-left: -40px;
+		color: red;
+	}
+	
+	.main .bottom form .two_1 {
+		display: inline-block;
+		color: #888;
+		font-size: 13px;
+	}
+	
+	.main .bottom form img {
+		display: inline-block;
+		margin-top: 4%;
+	}
+	
+	.main .bottom form a {
+		display: inline-block;
+		font-size: 1px;
+		color: cadetblue;
+	}
+	
+	.main .bottom form a:hover {
+		display: inline-block;
+		font-size: 1px;
+		color: #ff7c31;
+	}
+	
+	.main .bottom form .three {
+		display: inline-block;
+		margin-left: -40px;
+		color: red;
+		margin-top: 2%;
+	}
+	
+	.main .bottom form .three_1 {
+		display: inline-block;
+		color: #888;
+		font-size: 13px;
+		margin-top: 2%;
+	}
+	
+	.main .bottom form .reply {
+		display: inline-block;
+		background-color: cornflowerblue;
+		padding: 5px 5px;
+		border-radius: 3px;
+		/*border: 1px solid #ccc;*/
+		color: #fff;
+		font-size: 14px;
+		margin-top: 2%;
+	}
+	
+	.main .bottom form .reply:hover {
+		background-color: #114387;
+	}
+	
+	.main .bottom form .four {
+		display: inline-block;
+		margin-left: 0px;
+		color: red;
+		margin-top: 2%;
+	}
+	
+	.main .bottom form .four_1 {
+		display: inline-block;
+		color: #888;
+		font-size: 13px;
+		margin-top: 2%;
+	}
+	
+	.main .bottom form #emial {
+		padding: 5px 85px 5px 10px;
+	}
+	
+	.main .bottom form .five {
+		display: inline-block;
+		margin-left: 0px;
+		color: red;
+		margin-top: 2%;
+	}
+	
+	.main .bottom form .five_1 {
+		display: inline-block;
+		color: #888;
+		font-size: 13px;
+		margin-top: 2%;
+	}
+	
+	.main .bottom form #pwd {
+		padding: 5px 85px 5px 10px;
+	}
+	
+	.main .bottom form .six {
+		display: inline-block;
+		margin-left: -50px;
+		color: red;
+		margin-top: 2%;
+	}
+	
+	.main .bottom form .six_1 {
+		display: inline-block;
+		color: #888;
+		font-size: 13px;
+		margin-top: 2%;
+	}
+	
+	.main .bottom form #pwdd {
+		padding: 5px 85px 5px 10px;
+	}
+	
+	.main .bottom form #chexkbox {
+		margin-left: 12%;
+	}
+	
+	.main .bottom form .agree {
+		font-size: 13px;
+	}
+	
+	.main .bottom form .habbit {
+		width: 120px;
+		margin-top: 5%;
+		margin-left: 12%;
+		font-size: 14px;
+		text-align: center;
+		padding: 5px 0;
+		border-top: 1px solid #ccc;
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		color: #888;
+		background-color: #f8f8f8;
+		cursor: pointer;
+	}
+	
+	.main .bottom form .hab {
+		width: 600px;
+		border: 1px solid #ccc;
+		font-size: 14px;
+		margin-left: 12%;
+		
+		display: none;
+	}
+	
+	.main .bottom form .hab .city {
+		display: inline-block;
+		color: #888;
+		font-size: 14px;
+		margin-top: 4%;
+		margin-left: 2%;
+	}
+	
+	.main .bottom form .hab #city {
+		font-size: 14px;
+		margin-left: 12%;
+	}
+	
+	.main .bottom form .hab .one {
+		margin-top: 4%;
+		color: #888;
+	}
+	
+	.main .bottom form .hab .rate {
+		display: inline-block;
+		margin-top: 2%;
+		color: #888;
+		margin-left: 2%;
+	}
+	
+	
+	.main .bottom form .hab #rate {
+		margin-left: 12%;
+
+	}
+	
+
+
+
+	.main .bottom form .hab .price {
+		display: inline-block;
+		margin-top: 2%;
+		color: #888;
+		margin-left: 2%;
+	}
+	
+	
+	.main .bottom form .hab #price {
+		margin-left: 5%;
+
+	}
+	
+
+	.main .bottom form .hab .chace {
+		display: inline-block;
+		margin-top: 2%;
+		color: #888;
+		margin-left: 2%;
+	}
+	
+	
+	.main .bottom form .hab #chace {
+		margin-left: 12%;
+
+	}
+	
+
+
+	.main .bottom form .hab .hotel {
+		display: inline-block;
+		margin-top: 2%;
+		color: #888;
+		margin-left: 2%;
+	}
+	
+	
+	.main .bottom form .hab #hotel {
+		margin-left: 5%;
+
+	}
+	
+.main .bot {
+	margin-top: 2%;
+	margin-left: 19%;
+	font-size: 13px;
+	color: #555;
+}
+
+.main .bot form #show{
+	color: cadetblue;
+	cursor: pointer;
+}
+
+.main .bot form  #show:hover{
+	color: #f16800;
+}
+
+.main .bot form input[type='submit']{
+	margin-top: 3%;
+	border: 1px solid #ccc;
+	padding: 7px 50px;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 16px;
+	background-color: #f16800;
+	margin-bottom: 10%;
+	cursor: pointer;
+}
+
+.main .bot .bott{
+	width: 400px;
+	border: 1px solid #ccc;
+	height: 200px;
+	margin-top: 2%;
+	overflow: scroll;
+		display: none;
+}
+.main .bot .bott .bott1 {
+	height: 400px;
+
+
+}
+.main .bot .bott .bott1 p:nth-child(1){
+	text-align: center;
+}

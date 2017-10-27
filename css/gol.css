@@ -1,0 +1,94 @@
+body,
+ul,
+li,
+ol,
+p,
+a,
+dl,
+dt,
+dd,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input {
+	margin: 0;
+	padding: 0;
+}
+body{
+/*background-color: #f1f2f4;*/
+}
+
+ul li {
+	list-style: none;
+}
+
+ol li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+fieldset, img, input, button { 			/*fieldset组合表单中的相关元素*/
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none; /*清除轮廓线*/
+}
+/*清除列表项*/
+ul, ol {
+    list-style: none;				/*清除列表风格*/
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+/*垂直居中*/
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+/*禁止拖拽*/
+/*防止多行文本框拖动*/
+textarea {
+    resize: none;
+}
+
+.w {
+	width: 1210px;
+	margin: 0 auto;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+/*清除浮动*/
+.clearbox:after {
+	content: '';
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+	display: block;
+	clear: both;
+}
+
+.clearbox {
+	zoom: 1;
+}
